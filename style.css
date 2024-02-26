@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: paleturquoise
+}
+#registration{
+    width: 400px;
+    margin: 10vh auto 0 auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+}
+h1{
+    color: blue;
+    text-align: center;
+
+}
+.form button{
+    width: 100%;
+    background-color: powderblue;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form-group input{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    border-color: paleturquoise;
+}
+.form-group .error{
+    color: red;
+    margin-top: 3px;
+    font-size: 14px;
+}
+.form-group.success input{
+    border-color: green;
+}
+.form-group.error input{
+    border-color: red;
+}
+
+
